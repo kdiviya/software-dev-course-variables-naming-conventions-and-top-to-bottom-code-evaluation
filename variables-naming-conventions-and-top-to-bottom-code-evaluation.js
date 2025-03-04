@@ -24,9 +24,9 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let personName = "Alice";
+let itemNumber = 5;
+let totalAmount = 20;
+let finalResult = personName + " bought " + itemNumber + " items for $" + totalAmount + ".";
 
-console.log(d);
+console.log(finalResult);
