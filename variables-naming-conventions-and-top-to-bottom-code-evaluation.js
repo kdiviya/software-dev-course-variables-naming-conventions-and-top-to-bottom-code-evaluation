@@ -27,6 +27,8 @@ Things to reflect on:
 let personName = "Alice";
 let itemNumber = 5;
 let totalAmount = 20;
-let finalResult = personName + " bought " + itemNumber + " items for $" + totalAmount + ".";
+let itemPrice = 4;
+let shopName = "Walmart";
+let finalResult = personName + " bought " + itemNumber + " items from " + shopName + ", each costing $"+ itemPrice + ", for a total of $" + totalAmount + ".";
 
 console.log(finalResult);
